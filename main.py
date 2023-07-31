@@ -115,4 +115,4 @@ def index():
 # main driver function
 if __name__ == '__main__':
 
-    serve(app, port=5000, threads=2)
+    serve(app, host='0.0.0.0', port=5000, threads=2)
